@@ -4,6 +4,76 @@
     box-sizing: border-box;
 }
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     background-color: hsl(217, 54%, 11%);
+    color: #fff;
+    font-family: sans-serif;
 } 
-//dupa
+.card {
+    padding: 20px;
+    height: 500px;
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    color:hsl(215, 51%, 70%);
+    .nft-img {
+        display: block;
+        margin: 0 auto;
+        object-fit: fill;
+        height: 255px;
+        width: 255px;
+        border-radius: 10px;
+    }
+    .description {
+        .info {
+            margin-left: 5px;
+            display: inline;
+        }
+        .main-heading {
+            margin: 20px 0;
+            font-size: 20px;
+            color:#fff;
+        }
+        .text {
+            line-height: 30px;
+        }
+        .box {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;pizza
+            .emerald-text {
+                color: #00FFF8;
+            }
+            .left, .right {
+                display: flex;
+                align-items: center;
+            };
+        }
+        img {
+            width: 30px;
+            height: 30px;
+            border: 1px solid white;
+            border-radius: 50%;
+        }
+        .separator {
+            margin: 15px 0;
+            height: 1px;
+            width: 100%;
+            background-color: hsl(214, 25%, 23%);
+        }
+        .bottom-info {
+            display: flex;
+            align-items: center;
+            p {
+                margin-left: 15px;
+                font-size: 14px;
+            }
+            .authors-name {
+                color: #fff;
+            }
+        }
+    }
+}
